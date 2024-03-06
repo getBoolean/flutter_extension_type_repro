@@ -6,12 +6,13 @@ void main() {
   runApp(const MainApp());
 }
 
+const val = AgeRatingDto(value: AgeRating(0));
+
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    const val = AgeRatingDto(title: 'Hello World', $value: AgeRating(0));
     return MaterialApp(
       home: Scaffold(
         body: Center(
