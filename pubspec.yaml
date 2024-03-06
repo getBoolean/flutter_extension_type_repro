@@ -1,5 +1,5 @@
 name: flutter_extension_type_repro
-description: "A new Flutter project."
+description: "Minimal reproduction for dart-lang/sdk/issues/55111"
 publish_to: "none"
 version: 0.1.0
 

@@ -1,3 +1,3 @@
 # flutter_extension_type_repro
 
-A new Flutter project.
+Minimal reproduction for [dart-lang/sdk/issues/55111](https://github.com/dart-lang/sdk/issues/55111)
