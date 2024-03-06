@@ -6,11 +6,11 @@ part of 'provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$ageRatingHash() => r'19fc0055e7a5f5fcc498125501e75cf5e0632344';
+String _$ageRatingHash() => r'e07f914223ad6f77ea23f21deb9716b32be47efb';
 
 /// See also [ageRating].
 @ProviderFor(ageRating)
-final ageRatingProvider = AutoDisposeProvider<AgeRatingDto>.internal(
+final ageRatingProvider = AutoDisposeFutureProvider<AgeRatingDto>.internal(
   ageRating,
   name: r'ageRatingProvider',
   debugGetCreateSourceHash:
@@ -19,6 +19,6 @@ final ageRatingProvider = AutoDisposeProvider<AgeRatingDto>.internal(
   allTransitiveDependencies: null,
 );
 
-typedef AgeRatingRef = AutoDisposeProviderRef<AgeRatingDto>;
+typedef AgeRatingRef = AutoDisposeFutureProviderRef<AgeRatingDto>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
