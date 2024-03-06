@@ -1,4 +1,4 @@
-import 'age_rating.dart';
+import 'package:flutter_extension_type_repro/age_rating.dart';
 
 class AgeRatingDto {
   const AgeRatingDto({
